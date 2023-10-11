@@ -39,7 +39,7 @@
     #dcdfff,
     #d6fff2
   );
-  background-size: 2000px 2000px;
+  background-size: 200vw 200vw;
   background-position: top left;
   display: flex;
   align-items: center;
@@ -51,8 +51,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  overflow: hidden;
-  height: 100dvh;
+  /* overflow: hidden; */
+  height: 700px;
   padding: 20px 0;
 }
 .animation #globe  canvas {
