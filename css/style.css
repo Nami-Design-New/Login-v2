@@ -37,8 +37,8 @@
     to right top,
     #ffd8d8,
     #ffecd8,
-    #dcdfff,
-    #d6fff2
+    #e2ffeb,
+    #dcdfff
   );
   background-size: 200vw 200vh;
   background-position: top left;
@@ -71,21 +71,21 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  width: min(100% - 48px, 450px);
-  z-index: 999999999999;
+  width: min(100% - 40px, 450px);
 }
 .form-wrap {
   width: 100%;
   padding: 32px 24px;
   background-color: #f3f3f960;
   -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(3px);
   border-radius: 24px;
   border: 3px solid #ffffff38;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  z-index: 999999999999;
 }
 .form-wrap h1 {
   font-weight: 600;
@@ -129,7 +129,7 @@
   justify-content: space-between;
 }
 .check a {
-  color: #4931a8;
+  color: #009f6f;
   text-decoration: none;
 }
 .check div {
@@ -162,7 +162,7 @@
 }
 .check input:checked:after {
   content: "\f00c";
-  background: #4931a8;
+  background: #009f6f;
   color: #fff;
   border: 0;
 }
@@ -186,7 +186,7 @@ form button {
   cursor: pointer;
   color: #fff;
   font-size: 16px;
-  background: #4931a8;
+  background: #009f6f;
   font-weight: 400;
 }
 .footer {
@@ -200,6 +200,13 @@ form button {
 }
 
 .footer a {
-  color: #4931a8;
+  color: #009f6f;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.footer img {
+  height: 24px;
+  object-fit: contain;
 }
