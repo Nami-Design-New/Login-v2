@@ -16,7 +16,7 @@
 }
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +39,7 @@
     #dcdfff,
     #d6fff2
   );
-  background-size: 200vw 200vw;
+  background-size: 200vw 200vh;
   background-position: top left;
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@
   align-items: center;
   width: 100%;
   /* overflow: hidden; */
-  height: 700px;
+  height: 50dvh;
   padding: 20px 0;
 }
 .animation #globe  canvas {
